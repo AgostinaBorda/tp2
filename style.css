@@ -1,0 +1,35 @@
+/* Estilos CSS para dar formato a la cabecera */
+.header {
+    background-color: #333; /* Color de fondo de la barra superior */
+    color: #fff; /* Color de texto en la barra superior */
+    padding: 10px; /* Espaciado interno para contenido */
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo para los enlaces desplegables */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
